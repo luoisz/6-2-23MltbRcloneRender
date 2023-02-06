@@ -3,6 +3,7 @@ from os import path as ospath, environ
 from subprocess import run as srun
 from pymongo import MongoClient
 from dotenv import load_dotenv
+from requests import get as rget
 from subprocess import run as srun
 
 if ospath.exists('botlog.txt'):
